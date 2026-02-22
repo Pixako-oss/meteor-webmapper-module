@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "meteor-webmapper",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Meteor Webmapper",
+  "description": "Webmapper module for 6b6t",
   "authors": [
-    "seasnail"
+    "Fulgur"
   ],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com/Pixako-oss/meteor-webmapper-module"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
