@@ -3,6 +3,7 @@ package com.example.addon;
 import com.example.addon.commands.CommandExample;
 import com.example.addon.hud.HudExample;
 import com.example.addon.modules.Webmap;
+import com.example.addon.modules.Explorer;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -24,6 +25,7 @@ public class AddonTemplate extends MeteorAddon {
 
         // Modules
         Modules.get().add(new Webmap());
+        Modules.get().add(new Explorer());
     }
 
     @Override
