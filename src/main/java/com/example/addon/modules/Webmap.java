@@ -19,7 +19,7 @@ public class Webmap extends Module {
     // private final Settings settings = new Settings();
     private final SettingGroup sgGeneral = this.settings.getDefaultGroup();
 
-    private final Setting<Integer> maxDistance = sgGeneral.add(new IntSetting.Builder().name("distance").description("Maximum chunk distance from 0, 0 to map").defaultValue(62500).min(1).sliderMax(125000).build());
+    private final Setting<Integer> maxDistance = sgGeneral.add(new IntSetting.Builder().name("distance").description("Maximum chunk distance from 0, 0 to map").defaultValue(6250).min(1).sliderMax(125000).build());
     private final Setting<Integer> minPlayers = sgGeneral.add(new IntSetting.Builder().name("min-players").description("Minimum number of players online to upload chunks (use this to bypass lobbies)").defaultValue(100).min(0).sliderMax(125000).build());
     private final Setting<String> token = sgGeneral.add(new StringSetting.Builder().name("token").description("Authentication token to upload chunks to the webmap").defaultValue("").build());
 
